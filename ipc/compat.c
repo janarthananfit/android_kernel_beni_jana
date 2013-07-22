@@ -673,6 +673,7 @@ long compat_sys_shmctl(int first, int second, void __user *uptr)
 
 long compat_sys_semtimedop(int semid, struct sembuf __user *tsems,
 		unsigned nsops, const struct compat_timespec __user *timeout)
+		
 {
 	struct timespec __user *ts64 = NULL;
 	if (timeout) {
