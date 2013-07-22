@@ -32,6 +32,7 @@ static inline int get_compat_mq_attr(struct mq_attr *attr,
 		| __get_user(attr->mq_maxmsg, &uattr->mq_maxmsg)
 		| __get_user(attr->mq_msgsize, &uattr->mq_msgsize)
 		| __get_user(attr->mq_curmsgs, &uattr->mq_curmsgs);
+		
 }
 
 static inline int put_compat_mq_attr(const struct mq_attr *attr,
