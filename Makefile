@@ -192,7 +192,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 #CROSS_COMPILE	?=
 
 ARCH		=arm
-CROSS_COMPILE   =../arm-2011.03/bin/arm-none-eabi-
+CROSS_COMPILE   =..Add ur Toolchain
 
 
 # Architecture as present in compile.h
